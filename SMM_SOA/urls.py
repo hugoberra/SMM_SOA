@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('', include('SMM_module.urls')),
+    path('api/', include('SMM_module.urls')),  # Ruta base de API
 ]
